@@ -1,0 +1,16 @@
+com\taller\ms_productos\mapper\ProductoMapperImpl.class
+com\taller\ms_productos\model\Producto.class
+com\taller\ms_productos\dto\ProductoRequestDTO.class
+com\taller\ms_productos\exception\GlobalExceptionHandler.class
+com\taller\ms_productos\mapper\ProductoMapper.class
+com\taller\ms_productos\exception\ProductoNotFoundException.class
+com\taller\ms_productos\validator\ProductoValidator.class
+com\taller\ms_productos\exception\ProductoConStockException.class
+com\taller\ms_productos\repository\ProductoRepository.class
+com\taller\ms_productos\exception\ApiError.class
+com\taller\ms_productos\service\ProductoService.class
+com\taller\ms_productos\MsProductosApplication.class
+com\taller\ms_productos\controller\ProductoController.class
+com\taller\ms_productos\exception\NombreDuplicadoException.class
+com\taller\ms_productos\dto\ProductoResponseDTO.class
+com\taller\ms_productos\exception\StockInsuficienteException.class

@@ -1,0 +1,15 @@
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\controller\ProductoController.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\dto\ProductoRequestDTO.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\dto\ProductoResponseDTO.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\exception\ApiError.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\exception\GlobalExceptionHandler.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\exception\NombreDuplicadoException.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\exception\ProductoConStockException.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\exception\ProductoNotFoundException.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\exception\StockInsuficienteException.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\mapper\ProductoMapper.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\model\Producto.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\MsProductosApplication.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\repository\ProductoRepository.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\service\ProductoService.java
+C:\Users\jleiba\Downloads\Java INA\Ejemplo-MVCBOOT\ms_productos\src\main\java\com\taller\ms_productos\validator\ProductoValidator.java

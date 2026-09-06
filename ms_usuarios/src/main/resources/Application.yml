@@ -1,0 +1,27 @@
+
+
+server:
+  port: 8081
+spring:
+  application:
+    name: ms_usuarios
+
+  datasource:
+    url: jdbc:sqlserver://localhost;databaseName=usuariosdb;encrypt=true;trustServerCertificate=true
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: "crpp"
+
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+
