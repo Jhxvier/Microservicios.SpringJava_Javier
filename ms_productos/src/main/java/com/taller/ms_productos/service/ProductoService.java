@@ -103,7 +103,6 @@ public class ProductoService {
 
         productoRepository.delete(productoActualBD);
 
-        //no mapear: el endpoint responde 204 sin cuerpo
     }
 
 }

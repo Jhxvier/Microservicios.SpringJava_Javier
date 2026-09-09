@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MsUsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="ms_usuarios" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.taller.ms_usuarios.MsUsuariosApplication" />
+    <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

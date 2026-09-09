@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ms-taller" type="CompoundRunConfigurationType">
+    <toRun name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" />
+    <toRun name="MsPedidosApplication" type="SpringBootApplicationConfigurationType" />
+    <toRun name="MsProductosApplication" type="SpringBootApplicationConfigurationType" />
+    <toRun name="MsUsuariosApplication" type="SpringBootApplicationConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>

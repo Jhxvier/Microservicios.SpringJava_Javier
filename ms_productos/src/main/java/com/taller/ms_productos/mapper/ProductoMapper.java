@@ -15,8 +15,6 @@ public interface ProductoMapper {
     Producto toEntity(ProductoRequestDTO dto);
 
     //convierte de entity a responseDTO
-    //MapStruct mapea "stockBajo" automáticamente gracias a la convención
-    //JavaBeans: isStockBajo() en Producto == propiedad "stockBajo".
     ProductoResponseDTO toResponse(Producto producto);
 
     List<ProductoResponseDTO> toResponseList(List<Producto> productos);

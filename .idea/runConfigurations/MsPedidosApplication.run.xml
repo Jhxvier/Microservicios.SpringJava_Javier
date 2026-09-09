@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MsPedidosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="ms_pedidos" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.taller.ms_pedidos.MsPedidosApplication" />
+    <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

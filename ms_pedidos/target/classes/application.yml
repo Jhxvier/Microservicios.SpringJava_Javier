@@ -1,0 +1,30 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: ms_pedidos
+
+  datasource:
+    url: jdbc:sqlserver://localhost;databaseName=pedidosdb;encrypt=true;trustServerCertificate=true
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: "crpp"
+
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+ms:
+  usuarios:
+    url: http://localhost:8081
+  productos:
+    url: http://localhost:8082
+
+logging:
+  level:
+    org.hibernate.SQL: debug

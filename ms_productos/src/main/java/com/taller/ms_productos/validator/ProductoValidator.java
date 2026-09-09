@@ -18,7 +18,7 @@ public class ProductoValidator {
     //inyección de dependencias
     private final ProductoRepository productoRepository;
 
-    //REGLA 1: no pueden existir dos productos con el mismo nombre (ignorando mayúsculas/minúsculas)
+    //no pueden existir dos productos con el mismo nombre
     public void checkNombreUnicoCreate(String nombre) {
 
         if (productoRepository.existsByNombreIgnoreCase(nombre)) {
@@ -35,14 +35,14 @@ public class ProductoValidator {
         }
     }
 
-    //REGLA 2: no se puede descontar más stock del que hay disponible
+    //no se puede descontar más stock del que hay disponible
     public void checkStockSuficiente(Integer stock, int cantidad) {
         if (cantidad > stock) {
             throw new StockInsuficienteException(stock, cantidad);
         }
     }
 
-    //REGLA 3: no se puede eliminar un producto que todavía tiene stock (stock > 0)
+    //no se puede eliminar un producto que todavía tiene stock (stock > 0)
     public void checkProductoConStock(Producto producto) {
         if (producto.getStock() > 0) {
             throw new ProductoConStockException(producto.getNombre());

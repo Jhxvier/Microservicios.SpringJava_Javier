@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MsProductosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="ms_productos" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.taller.ms_productos.MsProductosApplication" />
+    <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

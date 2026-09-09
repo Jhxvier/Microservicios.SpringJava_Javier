@@ -18,6 +18,8 @@
     <modules>
         <module>ms_usuarios</module>
         <module>ms_productos</module>
+        <module>ms_pedidos</module>
+        <module>api-gateway</module>
     </modules>
 
 </project>
